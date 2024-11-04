@@ -15,6 +15,3 @@ def get_fibonacci_number_sequence(number): #Google/ChatGPT assist
 
 if __name__ == "__main__":
     print(get_fibonacci_number_sequence(7))
-
-
-    

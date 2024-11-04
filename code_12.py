@@ -1,4 +1,4 @@
-def get_fibonacci_number(position):
+def get_fibonacci_number(position): #From video lecture
     if position == 0:
         return 0
     elif position == 1:
@@ -6,7 +6,7 @@ def get_fibonacci_number(position):
     
     return get_fibonacci_number(position - 2) + get_fibonacci_number (position -1)
 
-def get_fibonacci_number_sequence(number):
+def get_fibonacci_number_sequence(number): #Google/ChatGPT assist
     fibonacci_sequence =[]
     for i in range(1, number +1):
         fibonacci_number = get_fibonacci_number(i)
@@ -15,3 +15,6 @@ def get_fibonacci_number_sequence(number):
 
 if __name__ == "__main__":
     print(get_fibonacci_number_sequence(7))
+
+
+    
